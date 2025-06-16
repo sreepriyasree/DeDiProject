@@ -7,6 +7,7 @@ describe('Dedi API Login Only - Static User', () => {
       url: '/dedi/login',
       body: { email, password },
       failOnStatusCode: false // allows debugging on failure
+      
     }).then((response) => {
       cy.log('Login Status:', response.status);
       cy.log('Login Response:', JSON.stringify(response.body, null, 2));

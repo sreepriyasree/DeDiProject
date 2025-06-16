@@ -10,6 +10,7 @@ describe('Dedi API Flow - Register & Login', () => {
       lastname: 'S',
       email: email,
       password: password
+      
     }).then((response) => {
       expect(response.status).to.be.oneOf([200, 201]);
       cy.log("User registered successfully", JSON.stringify(response.body));
