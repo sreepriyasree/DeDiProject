@@ -20,4 +20,5 @@ describe('Dedi API Login Only - Static User', () => {
       Cypress.env('accessToken', token); // Optional: Save for other tests
     });
   });
+  
 });
