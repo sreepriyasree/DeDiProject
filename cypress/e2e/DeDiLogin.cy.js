@@ -2,7 +2,6 @@ describe('Dedi API Login Only - Static User', () => {
   it('Login with static registered user', () => {
     const email = 'sreepriya@dhiway.com';
     const password = '1234test';
-
     cy.request({
       method: 'POST',
       url: '/dedi/login',

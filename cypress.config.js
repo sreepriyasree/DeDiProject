@@ -2,7 +2,6 @@
 const { defineConfig } = require("cypress");
 const crypto = require("crypto");
 
-
 module.exports = defineConfig({
   e2e: {
     baseUrl: process.env.CYPRESS_BASE_URL || "http://localhost:5106",
