@@ -11,7 +11,6 @@ module.exports = defineConfig({
           return "0x" + hash;
         },
       });
-
       return config;
     },
   },
